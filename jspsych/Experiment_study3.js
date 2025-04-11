@@ -74,7 +74,7 @@ var consigne = {
   "<p class= 'instructions_questionnary bold'>Please read these instructions very carefully.</p>" +
   "<p class= 'instructions_questionnary'>Imagine you are a medical researcher looking for a cure for a (fictional) disease called the Vonne syndrome. " + 
   "You just found a medicine that you think could work and your role will be to determine whether this medicine is effective or not. " +
-  "<p class= 'instructions_questionnary'>To do so, you will see patients suffering from the disease one by one." +
+  "<p class= 'instructions_questionnary'>To do so, you will see patients suffering from the disease one by one. " +
   "For each patient you can choose to administer the medicine or the placebo in order to observe whether the patient recovers from the crisis or not. " +
   "A placebo is a pill that resembles the medicine, but does not contain any substance affecting health " + 
   "(it is generally with this type of pill that a medicine is compared to judge its effectiveness).</p>" + 
