@@ -76,8 +76,8 @@ var consigne = {
   "You just found a medicine that you think could work and your role will be to determine whether this medicine is effective or not. " +
   "<p class= 'instructions_questionnary'>To do so, you will see patients suffering from the disease one by one. " +
   "For each patient you can choose to administer the medicine or the placebo in order to observe whether the patient recovers from the crisis or not. " +
-  "A placebo is a pill that resembles the medicine, but does not contain any substance affecting health " + 
-  "(medicines are typically compared to this type of pill to assess their effectiveness).</p>" + 
+  "A placebo is a pill that resembles the medicine, but does not contain any substance affecting health. " + 
+  "Medicines are typically compared to this type of pill to assess their effectiveness.</p>" + 
   "<p class= 'instructions_questionnary'>You will test a certain number of patients to determine the effectiveness of the medicine.</p>",
   choices: ['I have read carefully and I can start the study']
 };
