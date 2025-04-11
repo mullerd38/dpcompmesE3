@@ -37,7 +37,7 @@ var welcome = {
   type: jsPsychHtmlButtonResponse,
   stimulus:
     "<h1 class ='custom-title'>Welcome</h1>" +
-    "<p class='instructions'>TEST Thank you for taking part in this survey. <b> Please note that you can only participate from a computer.</b> </p>" +
+    "<p class='instructions'>TEST2 Thank you for taking part in this survey. <b> Please note that you can only participate from a computer.</b> </p>" +
     "<p class='instructions'>We are going to ask you to imagine you are a medical researcher who wants to test the effectiveness of a medicine against a fictitious disease. " +
     "Your task will be to give your opinion on the effectiveness of this medicine.</p>" +
     "<p class='instructions'>If you have any question related to this research, please " +
@@ -76,7 +76,7 @@ var consigne = {
   "You just found a medicine that you think could work and your role will be to determine whether this medicine is effective or not. " +
   "<p class= 'instructions_questionnary'>To do so, you will see patients suffering from the disease one by one." +
   "For each patient you can choose to administer the medicine or the placebo in order to observe whether the patient recovers from the crisis or not. " +
-  "A placebo is a pill that resembles the medicine, but does not contain any substance affecting health" + 
+  "A placebo is a pill that resembles the medicine, but does not contain any substance affecting health " + 
   "(it is generally with this type of pill that a medicine is compared to judge its effectiveness).</p>" + 
   "<p class= 'instructions_questionnary'>You will test a certain number of patients to determine the effectiveness of the medicine.</p>",
   choices: ['I have read carefully and I can start the study']
