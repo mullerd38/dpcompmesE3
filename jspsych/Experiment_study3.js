@@ -161,7 +161,7 @@ var feedback = {
     var last_response = jsPsych.data.getLastTrialData().values()[0];
     var chosen_pilule = last_response.response == 0 ? "medicine" : "placebo";
     return `<img style='width: 250px;' src="${jsPsych.timelineVariable('image')}"></img>
-            <p class='instructions'>You gave the <strong>${chosen_pilule}</strong>. The patient has <strong>${jsPsych.timelineVariable('diagnostic')}</strong>!</p>`;
+            <p class='instructions'>You gave the <strong>${chosen_pilule}</strong>. The patient has <strong>${jsPsych.timelineVariable('diagnostic')}</strong>.</p>`;
   },
   choices: ['Continue']
 };
