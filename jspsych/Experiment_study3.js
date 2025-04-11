@@ -146,11 +146,10 @@ var pilule_choice = {
     `<div class='choice-container'><img style='width: 100px;' src='jspsych/img/pilule.png'><div class='choice-text'>Placebo</div></div>`
   ],
   data: {
-    chosen_pilule: function() {
-      var response = jsPsych.data.getLastTrialData().values()[0].response;
-      return response == 0 ? "medicine" : "placebo";
-    },
-    diagnostic: jsPsych.timelineVariable('diagnostic')
+    diagnostic: jsPsych.timelineVariable('diagnostic'),
+  },
+  on_finish: function(data) {
+    data.chosen_pilule = data.response == 0 ? "medicine" : "placebo";
   }
 };
 
