@@ -172,7 +172,7 @@ var procedure_testing = {
   timeline: [pilule_choice, feedback],
   timeline_variables: stim_randomization,
   data: {
-    pilule: jsPsych.timelineVariable('pilule'),
+    expected_pilule: jsPsych.timelineVariable('pilule'), // in passive paradigm
     diagnostic: jsPsych.timelineVariable('diagnostic'),
     med_score: jsPsych.timelineVariable('med_score'),
     pla_score: jsPsych.timelineVariable('pla_score')
